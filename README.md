@@ -9,11 +9,6 @@ A Java Swing desktop app for building weighted graphs and stepping through four 
 **Requirements:** JDK 25, Maven
 
 ```bash
-# Clone the repo
-git clone <repo-url>
-cd Algorithms-Visualizer
-
-# Build and run
 mvn clean compile
 mvn exec:java -Dexec.mainClass="visualizer.ApplicationRunner"
 ```
